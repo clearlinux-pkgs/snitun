@@ -4,7 +4,7 @@
 #
 Name     : snitun
 Version  : 0.19
-Release  : 1
+Release  : 2
 URL      : https://github.com/NabuCasa/snitun/archive/0.19.tar.gz
 Source0  : https://github.com/NabuCasa/snitun/archive/0.19.tar.gz
 Summary  : No detailed summary available
