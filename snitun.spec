@@ -4,10 +4,10 @@
 #
 Name     : snitun
 Version  : 0.20
-Release  : 6
+Release  : 7
 URL      : https://github.com/NabuCasa/snitun/archive/0.20/snitun-0.20.tar.gz
 Source0  : https://github.com/NabuCasa/snitun/archive/0.20/snitun-0.20.tar.gz
-Summary  : No detailed summary available
+Summary  : SNI proxy with TCP multiplexer
 Group    : Development/Tools
 License  : GPL-3.0
 Requires: snitun-license = %{version}-%{release}
@@ -52,6 +52,7 @@ python components for the snitun package.
 Summary: python3 components for the snitun package.
 Group: Default
 Requires: python3-core
+Provides: pypi(snitun)
 
 %description python3
 python3 components for the snitun package.
@@ -66,7 +67,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579719342
+export SOURCE_DATE_EPOCH=1582921292
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
