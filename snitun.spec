@@ -4,7 +4,7 @@
 #
 Name     : snitun
 Version  : 0.20
-Release  : 7
+Release  : 8
 URL      : https://github.com/NabuCasa/snitun/archive/0.20/snitun-0.20.tar.gz
 Source0  : https://github.com/NabuCasa/snitun/archive/0.20/snitun-0.20.tar.gz
 Summary  : SNI proxy with TCP multiplexer
